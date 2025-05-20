@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PML CONNECT - Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('/public/fondo-marino.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      height: 100vh;
+      color: white;
+      padding: 50px;
+      box-sizing: border-box;
+    }
+
+    .left {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .left img {
+      width: 220px;
+      margin-bottom: 20px;
+    }
+
+    .left h2 {
+      margin-top: 0;
+      font-size: 24px;
+      letter-spacing: 2px;
+    }
+
+    .contact {
+      margin-top: 80px;
+      font-size: 14px;
+    }
+
+    .right {
+      width: 45%;
+      background: white;
+      border-radius: 25px;
+      padding: 30px;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 0 0 30px rgba(0,0,0,0.2);
+    }
+
+    .right h1 {
+      margin: 0;
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #222;
+      text-align: center;
+    }
+
+    .right img {
+      display: block;
+      margin: 0 auto 15px;
+      width: 160px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      background: #eee;
+      margin-bottom: 10px;
+      outline: none;
+      font-size: 14px;
+    }
+
+    button {
+      padding: 10px;
+      border-radius: 20px;
+      border: none;
+      background: #999;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #333;
+    }
+
+    .title {
+      font-weight: bold;
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Lado izquierdo -->
+    <div class="left">
+      <img src="/public/logo-marlinsolo.png" alt="Marlin Lizárraga">
+      <h2>PML CONNECT</h2>
+      <div class="contact">
+        <p>📞 +123-456-7890</p>
+        <p>🌐 www.reallygreatsite.com</p>
+      </div>
+    </div>
+
+    <!-- Lado derecho -->
+    <div class="right">
+      <h1>Productos Marinos Lizarraga, S.A. de C.V.</h1>
+      <img src="/public/logo-lizarraga.png" alt="Logo Lizárraga">
+
+      <form method="POST" action="/login">
+        <label>Username:</label>
+        <input type="text" name="usuario" required>
+
+        <label>Contraseña:</label>
+        <input type="password" name="contrasena" required>
+
+        <button type="submit">LOGIN</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

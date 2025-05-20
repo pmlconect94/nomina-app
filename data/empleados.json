@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1747772443780,
+    "nombre": "Diego Diaz Lizarraga",
+    "puesto": "Jefe Tesoreria",
+    "area": "Administracion",
+    "sueldoDiario": 917.34,
+    "fechaIngreso": "2022-06-06",
+    "periodicidad": "semanal",
+    "activo": true
+  }
+]

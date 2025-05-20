@@ -1,0 +1,23 @@
+{
+  "name": "nomina-app",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000n\u0000o\u0000m\u0000i\u0000n\u0000a\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmlconect94/nomina-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmlconect94/nomina-app/issues"
+  },
+  "homepage": "https://github.com/pmlconect94/nomina-app#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

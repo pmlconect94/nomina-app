@@ -1,0 +1,17 @@
+[
+  {
+    "usuario": "admin",
+    "contrasena": "1234",
+    "nombre": "Diego Díaz Lizárraga",
+    "rol": "administrador",
+    "permisos": [
+      "empleados",
+      "nomina",
+      "prestamos",
+      "asistencias",
+      "vacaciones",
+      "ventas",
+      "almacen"
+    ]
+  }
+]

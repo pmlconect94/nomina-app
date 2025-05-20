@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Empleados - Plataforma PML</title>
+</head>
+<body>
+  <h2>Lista de Empleados</h2>
+
+  <table border="1" cellpadding="5" cellspacing="0">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Puesto</th>
+        <th>Área</th>
+        <th>Sueldo Diario</th>
+        <th>Periodicidad</th>
+        <th>Activo</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{EMPLEADOS}}
+    </tbody>
+  </table>
+
+  <br><br>
+
+  <form action="/empleados/nuevo" method="GET" style="display: inline-block;">
+    <button type="submit">Alta de empleados</button>
+  </form>
+
+  <form action="/empleados/editar" method="GET" style="display: inline-block;">
+    <button type="submit">Editar empleado</button>
+  </form>
+
+  <form action="/empleados/descargar" method="GET" style="display: inline-block;">
+    <button type="submit">Descargar base de empleados</button>
+  </form>
+
+  <br><br>
+  <a href="/inicio">← Volver al inicio</a>
+</body>
+</html>
